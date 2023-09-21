@@ -1,0 +1,198 @@
+[08-Apr-2022 16:25:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('username_here', 'password_here', 'database_name_h...', 'localhost')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:26:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('username_here', 'password_here', 'database_name_h...', 'localhost')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(100): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:26:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('username_here', 'password_here', 'database_name_h...', 'localhost')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(100): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('username_here', 'password_here', 'database_name_h...', 'localhost')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:27:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'localhost')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:28:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:30:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:35:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:35:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:36:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:36:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:36:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:36:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:41:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:41:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:41:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785
+[08-Apr-2022 16:41:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/wp-includes/wp-db.php:1785
+Stack trace:
+#0 /var/www/html/wp-includes/wp-db.php(724): wpdb->db_connect()
+#1 /var/www/html/wp-includes/load.php(561): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'mysql')
+#2 /var/www/html/wp-settings.php(124): require_wp_db()
+#3 /var/www/html/wp-config.php(101): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/wp-db.php on line 1785

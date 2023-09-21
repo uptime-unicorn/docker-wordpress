@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mariadb
+    container_name: mariadb
+    volumes:
+      - mysql_volume:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+
+  php:
+    build:
+      context: .
+      dockerfile: php.dockerfile
+    volumes:
+      - ./wordpress-custom:/var/www/html
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx.dockerfile
+    ports:
+      - 80:80
+    volumes:
+      - ./wordpress-custom:/var/www/html
+    depends_on:
+      - mysql
+      - php
+
+volumes:
+  mysql_volume: {}
