@@ -35,7 +35,7 @@ Follow the steps below to get the setup running on your machine.
    docker compose up -d
    ```
 
-After executing the above steps, the Docker setup for WordPress should be up and running.
+After executing the above steps, the Docker setup for WordPress should be up and running .
 
 ## Support
 
